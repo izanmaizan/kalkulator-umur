@@ -1,11 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <link rel="stylesheet" href="./styles/main.css">
+    <link rel="stylesheet" href="./styles/media-querys.css">
+    <title>Webzma & Towers challenge | Age calculator app</title>
 </head>
+
 <body>
-    
+    <section class="age-calculator">
+        <header>
+            <form id="calculator-form">
+                <div class="calculator-input__container">
+                    <span class="calculator-input__date">Day</span>
+                    <input type="number" id="day-input" placeholder="DD" />
+                    <span class="calculator-input__error"></span>
+                </div>
+                <div class="calculator-input__container">
+                    <span class="calculator-input__date">Month</span>
+                    <input type="number" id="month-input" placeholder="MM" />
+                    <span class="calculator-input__error"></span>
+                </div>
+                <div class="calculator-input__container">
+                    <span class="calculator-input__date">Year</span>
+                    <input type="number" id="year-input" placeholder="YYYY" />
+                    <span class="calculator-input__error"></span>
+                </div>
+
+                <button class="arrowIcon-button">
+                    <img src="./assets/images/icon-arrow.svg" alt="arrow icon" class="arrow-icon">
+                </button>
+            </form>
+        </header>
+        <main>
+            <div class="calculator-age__container">
+                <p class="calculator-years-age">
+                    <span id="years-age">--</span>
+                    <span>years</span>
+                </p>
+                <p class="calculator-months-age">
+                    <span id="months-age">--</span>
+                    <span>months</span>
+                </p>
+                <p class="calculator-days-age">
+                    <span id="days-age">--</span>
+                    <span>days</span>
+                </p>
+            </div>
+        </main>
+    </section>
+
+    <script src="./js/const.js"></script>
+    <script src="./js/nodes.js"></script>
+    <script src="./js/index.js"></script>
 </body>
+
 </html>
