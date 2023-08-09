@@ -12,7 +12,7 @@ calculatorForm.addEventListener("submit", (e) => {
   getDay()
 })
 
-// validar si los inputs están vacíos o la fecha es erronea
+// Validasi input tanggal lahir
 const validateInputValue = () => {
   let errorInputDay, errorInputMonth, errorInputYear
 
@@ -112,3 +112,4 @@ const getDay = () => {
     ageDaysSpan.textContent = dayResult
   }
 }
+
