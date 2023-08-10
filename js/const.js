@@ -1,5 +1,5 @@
 const errorInputDate = {
-    errorEmptyDate: 'Wajib di isi',
+    errorEmptyDate: 'Wajib diisi',
     errorInvalidDate: 'Tidak valid'
   }
   
