@@ -16,8 +16,8 @@
   --font-family: 'Poppins', sans-serif;
 
   /* change mode */
-  --background-image: url(https://raw.githubusercontent.com/izanmaizan/kalkulator-umur/main/assets/images/light.jpg);
-  --text-color: #000;
+  background-image: url("https://raw.githubusercontent.com/izanmaizan/kalkulator-umur/main/assets/images/light.jpg");
+  color: #000;
 }
 
 * {
@@ -28,9 +28,9 @@
 
 .change-mode
 {
-  --background-image: url(https://raw.githubusercontent.com/izanmaizan/kalkulator-umur/main/assets/images/dark.jpg);
+  background-image: url("https://raw.githubusercontent.com/izanmaizan/kalkulator-umur/main/assets/images/dark.jpg");
   transition: background-image 1s ease-in-out;
-  --text-color: #ffffff;
+  color: #ffffff;
 }
 
 body {
