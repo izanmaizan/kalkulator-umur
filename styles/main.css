@@ -230,7 +230,7 @@ input[type="checkbox"]::before
   position: absolute;
   width: 25px;
   height: 25px;
-  background-image: url(/assets/images/switch.png);
+  background-image: url(./assets/images/switch.png);
   background-size: cover; /* Atur ukuran gambar agar sesuai dengan kotak */
   background-color: #fcfcfc;
   background-size: 25px;
