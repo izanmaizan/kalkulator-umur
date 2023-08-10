@@ -1,3 +1,4 @@
+//pengdeklarasian
 const $ = (element) => {
     return document.querySelector(element);
   }
