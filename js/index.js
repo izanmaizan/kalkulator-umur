@@ -1,4 +1,4 @@
-// date object
+// objek tanggal
 const date = new Date()
 const calculatorInput = [dayInput, monthInput, yearInput]
 
