@@ -87,7 +87,7 @@ const getYear = () => {
 }
 
 const getMonth = () => {
-  let monthResult = (date.getMonth() + 1)
+  let monthResult = (date.getMonth() + 1) - monthInput.value
   let dayResult = date.getDate() - dayInput.value
 
 

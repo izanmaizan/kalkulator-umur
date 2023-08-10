@@ -1,5 +1,5 @@
 const errorInputDate = {
-    errorEmptyDate: 'This field is required',
-    errorInvalidDate: 'Must be a valid date'
+    errorEmptyDate: 'Wajib di isi',
+    errorInvalidDate: 'Tidak valid'
   }
   
